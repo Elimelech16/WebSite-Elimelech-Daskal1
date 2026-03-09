@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" % >
+
+<!DOCTYPE html >
+
+<html >
+<head runat="server" >
+<title > </title >
+<link rel="stylesheet" type="text/css" href="StyleSheet.css" / >
+<meta charset="utf-8" / >
+<asp:ContentPlaceHolder id="head" runat="server" >
+</asp:ContentPlaceHolder >
+</head >
+<body >
+<form id="form1" runat="server" >
+<header >
+<section class="header_top" >
+
+</section >
+
+<nav class="main_nav" >
+<a href="Default.aspx" > דף בית</a >
+<a href="Page1.aspx" > דף 1</a >
+</nav >
+</header >
+
+<section class="center" >
+<aside >
+תוכן אזור צד
+</aside >
+
+<main >
+<asp:ContentPlaceHolder id="ContentPlaceHolderMain" runat="server" >
+</asp:ContentPlaceHolder >
+</main >
+</section >
+
+<footer >
+תוכן אזור תחתון
+</footer >
+</form >
+<asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server" >
+</asp:ContentPlaceHolder >
+</body >
+</html >
+
+להב קושפן
+13:10
+html {
+    direction: rtl;
+}
+
+header, .center, footer {
+    min-height: 80px;
+    border: 2px solid blue;
+}
+
+header {
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.header_top {
+    min-height: 20px;
+    display: flex;
+}
+
+
+
+.main_nav {
+    background-color: lightgray;
+    min-height: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+    .main_nav a {
+        text-decoration: none;
+        font-size: 24px;
+        color: darkblue;
+        margin: 10px;
+    }
+
+
+.center {
+    background-color: lime;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+main, aside {
+    min-height: 300px;
+}
+
+main {
+    background-color: darkblue;
+    flex: 4;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+aside {
+    background-color: gray;
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: orange;
+}
