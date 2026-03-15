@@ -28,16 +28,12 @@
 		<aside>
 				תוכן אזור צד
 		</aside>
-			
+        
 		<main>
 			<asp:ContentPlaceHolder id="ContentPlaceHolderMain" runat="server">
-			</asp:ContentPlaceHolder>
-		</main>
-	</section>
-			
-	<footer>
-			תוכן אזור תחתון
-	</footer>
+        </asp:ContentPlaceHolder>
+			</main>
+		</section>
     </form>
 	<asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
     </asp:ContentPlaceHolder>
