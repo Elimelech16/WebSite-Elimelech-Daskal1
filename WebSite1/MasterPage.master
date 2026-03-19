@@ -19,14 +19,19 @@
 		</section>
 			
 		<nav class="main_nav">   	
-			<a href="Default.aspx">דף בית</a>
-			<a href="Page1.aspx">דף 1</a>				
-		</nav>
+			<a href="Default.aspx">home page</a>
+			<a href="Firstpage.aspx">introduction</a>	
+			<a href="gym.aspx">the Gym</a>
+			<a href="crossfit.aspx">Crossfit</a>
+			<a href="gymnastics.aspx">Gymnastics</a>
+			</nav>
 	</header>
 		
 	<section class="center">
 		<aside>
-				תוכן אזור צד
+<asp:ContentPlaceHolder id="ContentPlaceHolderAside" runat="server">
+
+ </asp:ContentPlaceHolder>
 		</aside>
         
 		<main>
