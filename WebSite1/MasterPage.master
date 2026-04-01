@@ -20,7 +20,7 @@
 			
 		<nav class="main_nav">   	
 			<a href="Default.aspx">home page</a>
-			<a href="Firstpage.aspx">introduction</a>	
+			<a href="intro.aspx">introduction</a>	
 			<a href="gym.aspx">the Gym</a>
 			<a href="crossfit.aspx">Crossfit</a>
 			<a href="gymnastics.aspx">Gymnastics</a>
@@ -30,20 +30,34 @@
 	<section class="center">
 		<aside>
 <asp:ContentPlaceHolder id="ContentPlaceHolderAside" runat="server">
+	<h1>	the need to know website about all this exersize related</h1>
+	<p>	this website tells you all you need to know about how to wrokout, where to workout, and all information about working out in genaral</p>
 
  </asp:ContentPlaceHolder>
 		</aside>
         
 		<main>
 			<asp:ContentPlaceHolder id="ContentPlaceHolderMain" runat="server">
-        </asp:ContentPlaceHolder>
+							<h2>	about us</h2>
+<p>	this website was created by Elimelech Daskal. he made this website to expand the worlds knowldge about exersize. (and because it was a school project)</p>
+<h3>what we have instore for you</h3>
+<ol>	
+				<li>	what is exersize in genaral</li>
+				<li>	the gym</li>
+				<li> crossfit</li>
+				<li> gymnastics</li>
+</ol>
+				
+				</asp:ContentPlaceHolder>
 			</main>
 		</section>
 		<footer>	
+			<asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
+<img class="pics" src="images/Gemini_Generated_Image_fhqzogfhqzogfhqz.png"/>
 
+			</asp:ContentPlaceHolder>
 		</footer>
     </form>
-	<asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
-    </asp:ContentPlaceHolder>
+	
 </body>
 </html>

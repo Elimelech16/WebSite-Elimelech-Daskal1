@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="gym.aspx.cs" Inherits="gym" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
@@ -12,7 +13,7 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderScript" Runat="Server">
       <h2>differnt aspects of the gym</h2>
-     <h3>the gym mostly uses equipment that targets a specific muscle like</h3>
+     <h3>the gym mostly uses equipment that targets a specific muscle. here are some examples:</h3>
  <ul>    
      <li>bicep curls</li>
      <li> tricep pushdowns</li>
