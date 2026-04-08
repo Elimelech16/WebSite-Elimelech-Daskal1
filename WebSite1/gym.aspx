@@ -8,17 +8,18 @@
     <h1> welcome to the gym</h1>
     <p> the gym is a place were you can workout and get in shape</p>
   
-   
+        <h2>differnt aspects of the gym</h2>
+    <h3>the gym mostly uses equipment that targets a specific muscle. here are some examples:</h3>
+<ul>    
+    <li>bicep curls</li>
+    <li> tricep pushdowns</li>
+    <li> shoulder press</li>
+    <li>and lat pull downs</li>
+</ul>
+    <p> if you live in pardes hana the best gym in the area is <a href="https://www.iconfitness.co.il/">icon fitness</a> </p>
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderScript" Runat="Server">
-      <h2>differnt aspects of the gym</h2>
-     <h3>the gym mostly uses equipment that targets a specific muscle. here are some examples:</h3>
- <ul>    
-     <li>bicep curls</li>
-     <li> tricep pushdowns</li>
-     <li> shoulder press</li>
-     <li>and lat pull downs</li>
- </ul>
+    <img class="pics"  src="images/download (1)" />
 </asp:Content>
 

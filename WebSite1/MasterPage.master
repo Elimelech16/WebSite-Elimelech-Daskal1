@@ -53,7 +53,9 @@
 		</section>
 		<footer>	
 			<asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
+
 <img class="pics" src="images/Gemini_Generated_Image_fhqzogfhqzogfhqz.png"/>
+				<img class="pics" src="file:///C:/Users/97252/Downloads/SEI_102164921.webp" />
 
 			</asp:ContentPlaceHolder>
 		</footer>
