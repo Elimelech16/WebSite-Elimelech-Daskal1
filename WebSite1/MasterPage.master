@@ -12,10 +12,15 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
     <header>
+		
+
 		<section class="header_top">				
-				
+			<section class="header_date">
+				<asp:Label ID="DateLabel" runat="server"></asp:Label>
+				<asp:Image ID="DayImage" runat="server"/>
+			</section>
+
 		</section>
 			
 		<nav class="main_nav">   	
@@ -30,24 +35,14 @@
 	<section class="center">
 		<aside>
 <asp:ContentPlaceHolder id="ContentPlaceHolderAside" runat="server">
-	<h1>	the need to know website about all this exersize related</h1>
-	<p>	this website tells you all you need to know about how to wrokout, where to workout, and all information about working out in genaral</p>
+		<h1>	the need to know website about all this exersize related</h1>
+<p>	this website tells you all you need to know about how to wrokout, where to workout, and all information about working out in genaral</p>
 
  </asp:ContentPlaceHolder>
 		</aside>
         
 		<main>
 			<asp:ContentPlaceHolder id="ContentPlaceHolderMain" runat="server">
-							<h2>	about us</h2>
-<p>	this website was created by Elimelech Daskal. he made this website to expand the worlds knowldge about exersize. (and because it was a school project)</p>
-<h3>what we have instore for you</h3>
-<ol>	
-				<li>	what is exersize in genaral</li>
-				<li>	the gym</li>
-				<li> crossfit</li>
-				<li> gymnastics</li>
-</ol>
-				
 				</asp:ContentPlaceHolder>
 			</main>
 		</section>
@@ -55,7 +50,7 @@
 			<asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
 			</asp:ContentPlaceHolder>
 		</footer>
-    </form>
+   
 	
 </body>
 </html>

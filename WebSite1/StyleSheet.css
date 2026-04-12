@@ -68,9 +68,24 @@ footer {
     color: darkgoldenrod;
 }
 .pics {
-    width: auto;
-    height: auto;
+    width: 500px;
+    height: 500px;
 }
 a {
     color: darkgoldenrod;
+}
+.header_date {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#DateLabel {
+    flex: 1;
+}
+
+#DayImage {
+    flex: 3;
+    max-width: 60px;
+    height: auto;
 }
