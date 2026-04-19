@@ -18,6 +18,8 @@ header {
 .header_top {
     min-height: 20px;
     display: flex;
+    flex-direction: row;
+    height:150px;
 }
 
 
@@ -68,8 +70,8 @@ footer {
     color: darkgoldenrod;
 }
 .pics {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 300px;
 }
 a {
     color: darkgoldenrod;
@@ -86,6 +88,21 @@ a {
 
 #DayImage {
     flex: 3;
-    max-width: 60px;
+    max-width: 125px;
     height: auto;
 }
+
+.header_center{
+    flex: 8;
+    text-align:center;
+}
+
+.header_right {
+    flex: 1;
+    height: inherit;
+}
+
+.header_right img{
+    height: inherit;
+}
+

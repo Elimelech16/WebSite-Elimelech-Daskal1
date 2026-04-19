@@ -5,16 +5,18 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
-    <h1> welcome to the gym</h1>
-    <p> the gym is a place were you can workout and get in shape</p>
+    <h1> The Iron Temple: Your Guide to the Gym.</h1>
+   <h4>in the gym the are diffrent splits that people use</h4>
+    <h2>    what are splits?</h2>
+    <p> A gym split (short for "workout split") is basically your weekly training schedule. It is the strategy you use to divide your workouts throughout the week by organizing which muscle groups or movements you train on which days.</p>
   
-        <h2>differnt aspects of the gym</h2>
-    <h3>the gym mostly uses equipment that targets a specific muscle. here are some examples:</h3>
+        <h2>differnt  gym splits<h2>
+    
 <ul>    
-    <li>bicep curls</li>
-    <li> tricep pushdowns</li>
-    <li> shoulder press</li>
-    <li>and lat pull downs</li>
+    <li>The Full-Body Split: Perfect for beginners. You train all your major muscle groups 2-3 times a week. It is highly effective for learning the movements and building a solid foundation.</li>
+    <li> The Upper/Lower Split: Usually done 4 days a week. You dedicate two days strictly to upper body muscles (chest, back, shoulders, arms) and two days to your lower body (glutes, quads, hamstrings, calves).</li>
+    <li> The Push/Pull/Legs (PPL) Split: A favorite for intermediate and advanced lifters. "Push" days focus on pushing movements (chest, front shoulders, triceps). "Pull" days target pulling movements (back, rear shoulders, biceps). "Legs" days are all about the lower body.</li>
+   
 </ul>
     <p> if you live in pardes hana the best gym in the area is <a href="https://www.iconfitness.co.il/">icon fitness</a> </p>
 </asp:Content>
