@@ -40,7 +40,7 @@
 			
 		<nav class="main_nav">   	
 			<a href="Default.aspx">home page</a>
-			<a href="intro.aspx">introduction</a>	
+			<a href="intro.aspx">about</a>	
 			<a href="gym.aspx">the Gym</a>
 			<a href="crossfit.aspx">Crossfit</a>
 			<a href="gymnastics.aspx">Gymnastics</a>

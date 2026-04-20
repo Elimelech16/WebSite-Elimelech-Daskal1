@@ -7,11 +7,11 @@ html {
 
 header, .center, footer {
     min-height: 80px;
-    border: 2px solid blue;
+    border: 2px solid #0B0B45;
 }
 
 header {
-    background-color: darkgoldenrod;
+    background-color: #b8860b;
     margin-bottom: 5px;
 }
 
@@ -25,7 +25,7 @@ header {
 
 
 .main_nav {
-    background-color: darkblue;
+    background-color: #0B0B45;
     min-height: 30px;
     padding-left: 100px;
     padding-right: 100px;
@@ -34,13 +34,13 @@ header {
     .main_nav a {
         text-decoration: none;
         font-size: 24px;
-        color: darkgoldenrod;
+        color: #b8860b;
         margin: 10px;
     }
 
 
 .center {
-    background-color: darkblue;
+    background-color: #0B0B45;
     margin-bottom: 5px;
     display: flex;
 }
@@ -50,7 +50,7 @@ main, aside {
 }
 
 main {
-    background-color: darkblue;
+    background-color: #0B0B45;
     flex: 4;
     color: gold;
     padding: 5px 10px;
@@ -58,16 +58,16 @@ main {
 
 
 aside {
-    background-color: darkgoldenrod;
+    background-color: #b8860b;
     flex: 1;
     padding: 5px;
     text-align: center;
 }
 
 footer {
-    background-color: darkblue;
+    background-color: #0B0B45;
     text-align: center;
-    color: darkgoldenrod;
+    color: #b8860b;
 }
 .pics {
     width: 250px;
@@ -105,4 +105,43 @@ a {
 .header_right img{
     height: inherit;
 }
+.workout_gym {
+    text-align: left;
+    background-color: black;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+    margin-right: auto padding: 30px;
 
+    border: 2px solid #b8860b;
+    border-radius: 15px;
+    max-height: 400px;
+    overflow-y: auto;
+
+    flex: 1;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+#gym_workout{
+    width:inherit;
+    margin:auto;
+    align-self:center;
+}
+
+.gym_bottom_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.gym_bottom_img_section {
+    height: inherit;
+    padding: 0;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
