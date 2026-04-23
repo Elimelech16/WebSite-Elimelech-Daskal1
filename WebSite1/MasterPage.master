@@ -23,7 +23,7 @@
 			</section>
 
 			<section class="header_center">
-				<h1 style="display: inline; text-align: right font-size: 36px;">ELIMELECH'S FITNESS HUB</h1>
+				<h1 style="display: inline; text-align: right; font-size: 36px;">ELIMELECH'S FITNESS HUB</h1>
 				<h2>Welcome to the World of Fitness - Find the Perfect Workout for You!</h2>
 				<p>	this website tells you all you need to know about how to wrokout, where to workout, and all information about working out in genaral</p>
 			</section>
@@ -44,6 +44,7 @@
 			<a href="gym.aspx">the Gym</a>
 			<a href="crossfit.aspx">Crossfit</a>
 			<a href="gymnastics.aspx">Gymnastics</a>
+			<a class="login_logout" ID="LoginLogout" runat="server"></a>
 			</nav>
 	</header>
 		

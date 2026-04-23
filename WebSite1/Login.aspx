@@ -11,9 +11,9 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
   
     <form runat="server" method="post" action="Login.aspx">
-    <label for="userName">שם משתמש:</label><br>
+    <label for="userName">user name:</label><br>
     <input type="text" id="userName" name="userName"><br>
-    <label for="password">סיסמה:</label><br>
+    <label for="password">password:</label><br>
     <input type="password" id="password" name="password">
     <input type="submit" value="Submit">
 </form>
