@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Activities.Statements;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -131,7 +132,25 @@ public partial class Default2 : System.Web.UI.Page
         // RegistrationResult.InnerText
         // ולהחזיר:
         // return false;
+        string id = idNum.Value;
+        
        
+
+        if (id.Length != 9)
+        {
+            RegistrationResult.InnerText += "id must contain 9 numbers";
+            return false;
+
+        }
+
+        for (int i = 0; i < id.Length;i++)
+        {
+            if (id[i] < '0' && id[i] > '9')
+                RegistrationResult.InnerText += "id must contain only numbers";
+            return false;
+        }
+       
+
         return true;
     }
 
@@ -145,6 +164,26 @@ public partial class Default2 : System.Web.UI.Page
         // RegistrationResult.InnerText
         // וסיים את הפעולה עם:
         // return false;
+        string Phone = phone.Value;
+        if (phone.Value.Length != 10)
+        {
+            RegistrationResult.InnerText += "phone number must contain 10 numbers";
+            return false;
+        }
+        if (Phone[0] != 0)
+        {
+
+            RegistrationResult.InnerText += "phone number must contain 0 as the first numbers";
+            return false;
+        }
+
+
+        for (int i = 0; i < Phone.Length; i++)
+        {
+            if (Phone[i] < '0' && Phone[i] > '9')
+                RegistrationResult.InnerText += "phone must contain only numbers";
+            return false;
+        }
 
         return true;
     }
@@ -160,7 +199,7 @@ public partial class Default2 : System.Web.UI.Page
         // IndexOf
         // במקרה שאחד התנאים לא מתקיים, הוסף הודעת שגיאה מתאימה והחזר:
         // return false;
-
+        string email = Email.Value;
         return true;
     }
 
