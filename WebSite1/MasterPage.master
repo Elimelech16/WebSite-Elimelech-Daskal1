@@ -43,7 +43,7 @@
 			<a href="intro.aspx">about</a>	
 			<a href="gym.aspx">the Gym</a>
 			<a href="crossfit.aspx">Crossfit</a>
-			<a href="gymnastics.aspx">Gymnastics</a>
+			<a  runat="server" id="gymnastic" href="gymnastics.aspx">Gymnastics</a>
 			<a class="login_logout" ID="LoginLogout" runat="server"></a>
 			</nav>
 	</header>

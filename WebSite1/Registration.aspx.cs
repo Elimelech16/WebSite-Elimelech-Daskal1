@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Activities.Statements;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+
 
 public partial class Default2 : System.Web.UI.Page
 {
@@ -145,9 +147,12 @@ public partial class Default2 : System.Web.UI.Page
 
         for (int i = 0; i < id.Length;i++)
         {
-            if (id[i] < '0' && id[i] > '9')
+            if (id[i] < '0' || id[i] > '9')
+            {
                 RegistrationResult.InnerText += "id must contain only numbers";
-            return false;
+                return false;
+            }
+               
         }
        
 
@@ -165,12 +170,12 @@ public partial class Default2 : System.Web.UI.Page
         // וסיים את הפעולה עם:
         // return false;
         string Phone = phone.Value;
-        if (phone.Value.Length != 10)
+        if (Phone.Length != 10)
         {
             RegistrationResult.InnerText += "phone number must contain 10 numbers";
             return false;
         }
-        if (Phone[0] != 0)
+        if (Phone[0] != '0')
         {
 
             RegistrationResult.InnerText += "phone number must contain 0 as the first numbers";
@@ -180,9 +185,12 @@ public partial class Default2 : System.Web.UI.Page
 
         for (int i = 0; i < Phone.Length; i++)
         {
-            if (Phone[i] < '0' && Phone[i] > '9')
+            if (Phone[i] < '0' || Phone[i] > '9')
+            {
                 RegistrationResult.InnerText += "phone must contain only numbers";
-            return false;
+                return false;
+            }
+              
         }
 
         return true;
@@ -199,7 +207,14 @@ public partial class Default2 : System.Web.UI.Page
         // IndexOf
         // במקרה שאחד התנאים לא מתקיים, הוסף הודעת שגיאה מתאימה והחזר:
         // return false;
-        string email = Email.Value;
+        string email = mail.Value;
+        int atIndex = email.IndexOf('@');
+        int dotIndex = email.IndexOf('.');
+        if (atIndex == -1 || dotIndex == -1 || dotIndex < atIndex)
+        {
+            RegistrationResult.InnerText += "Email must contain '@' and '.' with '.' appearing after '@'.";
+            return false;
+        }
         return true;
     }
 
@@ -216,8 +231,34 @@ public partial class Default2 : System.Web.UI.Page
 
     private bool Insert_Into_Database()
     {
+        string dbPath = this.MapPath("App_Data/Database.mdf");
+        DAL dal = new DAL(dbPath);
+
+        string sqlQuery = "SELECT * FROM Users WHERE user_name = '" + userName.Value + "'";
+        DataTable dt = dal.GetDataTable(sqlQuery);
+
+        if (dt.Rows.Count > 0)
+        {
+            RegistrationResult.InnerText = "שם משתמש קיים במערכת. אנא בחר.י שם אחר.";
+            return false;
+        }
+
+        sqlQuery = "INSERT INTO Users VALUES (" +
+        "'" + firstName.Value + "', " +
+        "'" + lastName.Value + "', " +
+        "'" + userName.Value + "', " +
+        "'" + pswd.Value + "', " +
+        "'" + idNum.Value + "'," +
+        "'" + phone.Value + "'," +
+        "'" + mail.Value + "'," +
+        "'" + Request.Form["gender"] + "'," +
+        "'" + DateTime.Now.ToString("yyyy-MM-dd") + "', 0);";
+
+        dal.UpdateDB(sqlQuery);
+
         return true;
     }
+
 
 
 
