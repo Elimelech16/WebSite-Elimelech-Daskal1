@@ -20,7 +20,7 @@
 <div runat="server" id="LoginResult"></div>
     <br><br>
 <form method="get" action="Registration.aspx">		
-    <input type="submit" value="להרשמה"/>
+    <input type="submit" value="Register"/>
 </form>
 
 </asp:Content>

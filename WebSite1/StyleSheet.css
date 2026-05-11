@@ -7,7 +7,7 @@ html {
 
 header, .center, footer {
     min-height: 80px;
-    border: 2px solid #0B0B45;
+    border: 2px solid #000;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 
 
 .main_nav {
-    background-color: #0B0B45;
+    background-color: #000;
     min-height: 30px;
     padding-left: 100px;
     padding-right: 100px;
@@ -42,7 +42,7 @@ header {
 
 
 .center {
-    background-color: #0B0B45;
+    background-color: #000;
     margin-bottom: 5px;
     display: flex;
 }
@@ -52,7 +52,7 @@ main, aside {
 }
 
 main {
-    background-color: #0B0B45;
+    background-color: #000;
     flex: 4;
     color: gold;
     padding: 5px 10px;
@@ -67,7 +67,7 @@ aside {
 }
 
 footer {
-    background-color: #0B0B45;
+    background-color: #000;
     text-align: center;
     color: #b8860b;
 }
@@ -155,4 +155,12 @@ footer a {
 
     
 }
+.adminTable tr:nth-child(even) {
+    background-color: black;
+}
+
+.adminTable, .adminTable th, .adminTable td {
+    border: 1px solid black;
+}
+
 
