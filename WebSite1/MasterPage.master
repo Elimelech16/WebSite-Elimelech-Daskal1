@@ -51,7 +51,23 @@
 	<section class="center">
 		<aside>
 <asp:ContentPlaceHolder id="ContentPlaceHolderAside" runat="server">
-			<img class="pics" src="images/Gemini_Generated_Image_a9cqcja9cqcja9cq.png" />
+			<h2>Quick Fitness Tip:</h2>
+	<ul>
+		<li>"No matter how slow you go, you are still lapping everyone on the couch."</li>
+		<li>"Consistency is more important than perfection."</li>
+		<li>"Hydration is key: Drink water before, during, and after your workout."</li>
+		<li>"Your only limit is you."</li>
+		<li>"Listen to your body. Rest is just as important as the workout."</li>
+	</ul>
+	<hr />	
+	<h2>Useful Links:</h2>
+	<ul>
+		<li><a href="https://www.olympics.com/en/">Official Olympic Sports</a></li>
+		<li><a href="https://www.verywellfit.com">Fitness & Nutrition Tips </a></li>
+		<li><a href="https://www.crossfit.com">CrossFit Official Website</a></li>
+		<li><a href="https://www.bodybuilding.com">Gym Workouts & Exercises	</a></li>
+		<li><a href="https://www.gymnastics.sport">World Gymnastics (FIG)</a></li>
+	</ul>
  </asp:ContentPlaceHolder>
 		</aside>
         
