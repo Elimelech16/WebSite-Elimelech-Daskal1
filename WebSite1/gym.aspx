@@ -21,7 +21,7 @@
          <hr />
         <li> Body Part Split (The "Bro Split"): You dedicate an entire workout to just one or two muscle groups. For example: Monday is Chest, Tuesday is Back, Wednesday is Legs, Thursday is Shoulders, and Friday is Arms.</li>
     </ul>
-    <p> if you live in pardes hana the best gym in the area is <a href="https://www.iconfitness.co.il/">icon fitness</a> </p>
+    <p> if you live in pardes hana the best gym in the area is <a href="https://www.iconfitness.co.il/" target="_blank">icon fitness</a> </p>
 
 
        

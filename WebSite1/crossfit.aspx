@@ -18,7 +18,7 @@ The biggest difference, however, is the community. You don't plug in your earpho
              <hr /> 
         <li> <h4>  AMRAP (As Many Rounds/Reps As Possible): </h4>  <p> A challenge to complete a specific circuit of exercises as many times as you can within a set time limit. </p> </li>
     </ul>
-      <p> if you live in pardes hana the best crossfit in the area is <a href="https://www.crossfitpardeshana-karkur.com/">Crossfit pardes hana karkur</a> </p>
+      <p> if you live in pardes hana the best crossfit in the area is <a href="https://www.crossfitpardeshana-karkur.com/" target="_blank">Crossfit pardes hana karkur</a> </p>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderScript" Runat="Server">
         <section class="Crossfit_bottom_section">

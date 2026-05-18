@@ -11,7 +11,7 @@
     <h2>    How the Gymnastics World Works:</h2>
     <p>The world of competitive gymnastics is highly structured. At the top level, you have the Olympic Games and the World Championships.
 But how do they win? It's all about the Code of Points. Gone are the days of the "Perfect 10."</p>
-     <p> Curious to see the rules in action or find a local club?  <a href="https://www.gymnastics.sport/site/rules/">Visit the official website of the International Gymnastics Federation for more details.</a> </p>
+     <p> Curious to see the rules in action or find a local club?  <a href="https://www.gymnastics.sport/site/rules/" target="_blank">Visit the official website of the International Gymnastics Federation for more details.</a> </p>
      <hr />  
     <h2>Today, a gymnast's final score is made up of two parts:</h2>
     <ul>
@@ -33,5 +33,7 @@ But how do they win? It's all about the Code of Points. Gone are the days of the
     </ul>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderScript" Runat="Server">
+    <h2>: Stay Strong. Keep Moving. Never Quit.</h2>
+<p>&copy; 2026 Elimelech - High School Computer Science Project. All rights reserved.</p>
 </asp:Content>
 

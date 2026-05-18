@@ -41,9 +41,14 @@
 		<nav class="main_nav">   	
 			<a href="Default.aspx">home page</a>
 			<a href="intro.aspx">about</a>	
-			<a href="gym.aspx">the Gym</a>
+			<details>
+    <summary class="horizontal-menu"> The big three</summary>
+				<a href="gym.aspx">the Gym</a>
 			<a href="crossfit.aspx">Crossfit</a>
 			<a  runat="server" id="gymnastic" href="gymnastics.aspx">Gymnastics</a>
+   
+</details>
+			
 			<a class="login_logout" ID="LoginLogout" runat="server"></a>
 			</nav>
 	</header>
@@ -62,11 +67,11 @@
 	<hr />	
 	<h2>Useful Links:</h2>
 	<ul>
-		<li><a href="https://www.olympics.com/en/">Official Olympic Sports</a></li>
-		<li><a href="https://www.verywellfit.com">Fitness & Nutrition Tips </a></li>
-		<li><a href="https://www.crossfit.com">CrossFit Official Website</a></li>
-		<li><a href="https://www.bodybuilding.com">Gym Workouts & Exercises	</a></li>
-		<li><a href="https://www.gymnastics.sport">World Gymnastics (FIG)</a></li>
+		<li><a href="https://www.olympics.com/en/" target="_blank">Official Olympic Sports</a></li>
+		<li><a href="https://www.verywellfit.com" target="_blank">Fitness & Nutrition Tips </a></li>
+		<li><a href="https://www.crossfit.com" target="_blank">CrossFit Official Website</a></li>
+		<li><a href="https://www.bodybuilding.com" target="_blank">Gym Workouts & Exercises	</a></li>
+		<li><a href="https://www.gymnastics.sport" target="_blank">World Gymnastics (FIG)</a></li>
 	</ul>
  </asp:ContentPlaceHolder>
 		</aside>
