@@ -41,13 +41,12 @@
 		<nav class="main_nav">   	
 			<a href="Default.aspx">home page</a>
 			<a href="intro.aspx">about</a>	
-			<details>
-    <summary class="horizontal-menu"> The big three</summary>
 				<a href="gym.aspx">the Gym</a>
 			<a href="crossfit.aspx">Crossfit</a>
 			<a  runat="server" id="gymnastic" href="gymnastics.aspx">Gymnastics</a>
+			<a id="AdminLink" runat="server" href="Admin.aspx" visible="false">Admin page</a>
    
-</details>
+
 			
 			<a class="login_logout" ID="LoginLogout" runat="server"></a>
 			</nav>

@@ -207,30 +207,3 @@ aside a {
         color: white;
         text-decoration: underline;
     }
-/* עיצוב אזור התפריט הנפתח */
-details {
-    margin-bottom: 15px;
-    background-color: black; /* צבע רקע עדין, אפשר לשנות */
-    padding: 5px;
-    border-radius: 5px;
-   
-
-/* עיצוב הכותרת שלוחצים עליה */
-summary {
-        
-    cursor: pointer; /* הופך את סמן העכבר ל"יד לוחצת" כדי שהגולש יבין שאפשר ללחוץ */
-    font-weight: bold;
-    color: darkgoldenrod; /* צבע הכותרת */
-    outline: none; /* מסיר את המסגרת המכוערת שמופיעה לפעמים בלחיצה */
-}
-details a {
-    display: inline-block;
-    margin-left: 15px; /* מוסיף מרווח אופקי בין קישור לקישור כדי שלא יידבקו */
-    margin-top: 5px; /* מרווח קטן מהכותרת למעלה */
-}
-.horizontal-menu{
-    display: flex;
-    flex-direction: row; /* מכריח שורה אופקית */
-    gap: 15px; /* מרווח קבוע בין הקישורים */
-    margin-top: 10px;
-}

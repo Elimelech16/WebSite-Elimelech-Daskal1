@@ -39,7 +39,7 @@
 	<label for="approval">I agree to the site rules.:</label><br>
 	<input runat="server" type="checkbox" id = "approval" name = "approval" value="approve"/>confirm<br/>
 
-	<input type="submit">	
+	<input type="submit" />	
 </form>
 
 <div runat="server" id="RegistrationResult"></div>

@@ -9,6 +9,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        gymnastic.Visible = false;
         if ((bool)Session["isLoggedIn"])
         {
             LoginLogout.HRef = "Logout.aspx";
@@ -21,6 +22,11 @@ public partial class MasterPage : System.Web.UI.MasterPage
             LoginLogout.InnerText = "login";
         }
 
+        if (Session["IsAdmin"] != null && (bool)Session["IsAdmin"] == true)
+        {
+            // אם הוא אדמין, הופכים את הקישור לגלוי
+            AdminLink.Visible = true;
+        }
 
         if (!IsPostBack)
         {
