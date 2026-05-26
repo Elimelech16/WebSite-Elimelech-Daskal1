@@ -52,5 +52,8 @@
 
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderScript" Runat="Server">
+	
+	<h2>: Stay Strong. Keep Moving. Never Quit.</h2>
+	<p>&copy; 2026 Elimelech - High School Computer Science Project. All rights reserved.</p>
 </asp:Content>
 
